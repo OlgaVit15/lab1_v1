@@ -1,6 +1,6 @@
 package db;
 
-public class Query extends Inpoint implements IQuery {
+public class Query implements IQuery {
     String query;
     String[] parsed;
     String tablename;
