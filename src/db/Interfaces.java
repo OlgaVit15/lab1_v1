@@ -37,5 +37,5 @@ interface IParser {
 }
 
 interface IDb{
-    public void use();
+    void use();
 }

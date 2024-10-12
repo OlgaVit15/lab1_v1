@@ -10,5 +10,5 @@ class Inpoint implements IDb{
         Query q = new Query();
         String[] parsed = q.parse(query);
         q.queryAnalyze(parsed);
-    };
+    }
 }
