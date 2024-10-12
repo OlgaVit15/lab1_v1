@@ -15,7 +15,7 @@ interface IDataOperations extends IAccess, ISerialize {
     void save ();
     void remove ();
     void load();
-    String read ();
+    String read();
     void search();
 }
 
